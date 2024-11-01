@@ -4,7 +4,7 @@
 
 当然，开头第一句引言就很有意思：Multithreading is just one damn thing after, before, or simultaneous with another. 自己翻译一下吧
 
-# 描述
+# 1 描述
 
 在网络上搜索各种设计模式，你肯定会发现最常提到的一种是 `Singleton`。然而，尝试将 `Singleton` 付诸实践，你包会遇到一个常见的问题：按照传统实现方式（我们将在下面解释），`Singleton` 不是线程安全的。
 
