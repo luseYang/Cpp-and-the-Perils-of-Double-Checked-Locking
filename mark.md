@@ -32,8 +32,8 @@ private:
 Singleton* Singleton::pInstance = 0;
 
 Singleton* Singleton::instance(){
-    if(pInstance==0){
-        pInstance=new Singleton;
+    if(pInstance == 0){
+        pInstance = new Singleton;
     }
     return pInstance;
 }
